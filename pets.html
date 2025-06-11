@@ -3,38 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pet Store</title>
+  <title>All Pets</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="petpet">
-    <h1>Welcome to Our Pet Store</h1>
+    <h1>All Available Pets</h1>
     <nav>
-      <a href="#">Home</a>
+      <a href="index.html">Home</a>
       <a href="pets.html">Pets</a>
-      <a href="#Contact">Contact</a>
+      <a href="index.html#Contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="featured">
-      <h2>Featured Pets</h2>
-      <div class="pet-list" id="featured-pets"></div>
+      <h2>Dogs</h2>
+      <div class="pet-list" id="dogs-list"></div>
     </section>
 
-<div class="pet-list" id="featured-pets">
-  <div class="pet">
-    <img src="img/dogs/dog01.jpg" alt="Buddy">
-    <h3>Buddy - Beagle</h3>
-    <button onclick="adoptPet()">Adopt Now</button>
-  </div>
-  <div class="pet">
-    <img src="img/cats/cat01.jpg" alt="Whiskers">
-    <h3>Whiskers - Tabby</h3>
-    <button onclick="adoptPet()">Adopt Now</button>
-  </div>
-</div> 
-    
+    <section class="featured">
+      <h2>Cats</h2>
+      <div class="pet-list" id="cats-list"></div>
+    </section>
+
+    <section class="featured">
+      <h2>Capybaras</h2>
+      <div class="pet-list" id="capybaras-list"></div>
+    </section>
   </main>
 
   <footer id="Contact">
@@ -52,6 +48,6 @@
   </footer>
 
   <script src="adopt.js"></script>
-  <script src="script.js"></script>
+  <script src="loadpets.js"></script>
 </body>
 </html>

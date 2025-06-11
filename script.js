@@ -1,4 +1,3 @@
 function adoptPet() {
-    alert("Thanks for choosing to adopt a pet! 🐾");
-  }
-  
+  alert("Thank you for your interest in adopting! Our team will contact you soon.");
+}
